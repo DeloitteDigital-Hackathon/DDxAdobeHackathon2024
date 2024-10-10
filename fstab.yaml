@@ -1,5 +1,2 @@
 mountpoints:
-  /: 
-  url: "https://author-p9507-e143054.adobeaemcloud.com/bin/franklin.delivery/DeloitteDigital-Hackathon/DDxAdobeHackathon2024/main"
-  type: "markup"
-  suffix: ".html"
+  /: https://drive.google.com/drive/folders/1ln1wdusaUkm4btsMjNSS0wqZwaZWr57S
