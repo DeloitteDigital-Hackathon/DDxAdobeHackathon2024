@@ -2,18 +2,18 @@
     "info": {
       "name": "AEM Sidekick",
       "version": "6.42.0",
-      "date": "Tue, 16 Apr 2024 12:15:09 GMT"
+      "date": "Tue, 8 Oct 2024 17:04:06 GMT"
     },
     "projects": [
       {
-        "giturl": "https://github.com/naveenaroradeloitte/eds/tree/main",
-        "id": "naveenaroradeloitte/eds/main",
+        "giturl": "https://github.com/DeloitteDigital-Hackathon/DDxAdobeHackathon2024/tree/main",
+        "id": "DeloitteDigital-Hackathon/DDxAdobeHackathon2024/main",
         "mountpoints": [
-          "https://drive.google.com/drive/u/0/folders/1CfahYd6JAQ2FKO6SEA854zDHM5dDEbm7"
+          " https://drive.google.com/drive/folders/1ln1wdusaUkm4btsMjNSS0wqZwaZWr57S"
         ],
-        "owner": "naveenaroradeloitte",
+        "owner": "DeloitteDigital-Hackathon",
         "ref": "main",
-        "repo": "eds"
+        "repo": "DDxAdobeHackathon2024"
       }
     ],
     "plugins": [
