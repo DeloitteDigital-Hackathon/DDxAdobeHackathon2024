@@ -1,8 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <meta name="urn:adobe:aue:system:aemconnection" content="aem:https://author-p9507-e143052.adobeaemcloud.com/"/>
-<meta name="urn:adobe:aue:system:fcsconnection"
-      content="fcs:https://author-p9507-e143052.adobeaemcloud.com/bin/franklin.delivery/DeloitteDigital-Hackathon/DDxAdobeHackathon2024"/>
+<meta name="urn:adobe:aue:system:fcsconnection" content="fcs:https://example.franklin.adobe.com/345fcdd"/>
 
 <script src="/scripts/aem.js" type="module"></script>
 <script src="/scripts/scripts.js" type="module"></script>
@@ -12,38 +11,32 @@
 
 <script src="https://universal-editor-service.experiencecloud.live/corslib/LATEST" async></script>
 
-
-<!-- Start - Fetch Data from AEM Author and show on the page -->
 <body>
-<div class=“cards”>
-    <ul>
-        <li data-aue-resource=“urn:aemconnection:/content/dam/ddxadobehackathon2024/item1/jcr:content/data/master"
-            data-aue-type=“component” itemfilter=‘cf’>
-            <div class=“cards-card-body”>
-                <p>
-                    <picture>
-                        <source type=“image/webp”
-                                srcset=“/media_1ea22bf7384d8c5d70bb60955817cd2cddb4fcc4c.jpeg?width=750&amp;format=webply&amp;optimize=medium”>
-                        <img loading=“lazy” alt=“” data-aue-prop=“image” data-aue-type=“image”
-                             src=“/media_1ea22bf7384d8c5d70bb60955817cd2cddb4fcc4c.jpeg?width=750&amp;format=jpeg&amp;optimize=medium”>
-                    </picture>
-                </p>
-                <h5 id=“electronics” data-aue-prop=“title” data-aue-type=“text”>“${title}“</h5>
-            </div>
-            <div class=“cards-card-body”>
-                <p data-aue-prop=“price” data-aue-type=“text”>
-                    <strong>${price}</strong>
-                </p>
-                <p data-aue-prop=“description”
-                   data-aue-type=“text”>But that you may see whence all this error is born of those who accuse pleasure and praise pain</p>
-                <p class=“button-container” data-aue-prop=“name” data-aue-type=“text”>
-                    <a href=“/plp” title=“BROWSE CATEGORY” class=“button”> <span ata-aue-prop=“buttonLabel”
-                                                                                 data-aue-type=“text”>BROWSE CATEGORY</span>
-                    </a>
-                </p>
-            </div>
-        </li>
-    </ul>
-</div>
+    <div class="cards">
+        <ul>
+            <li data-aue-resource="urn:aemconnection:/content/dam/ddxadobehackathon2024/item1/jcr:content/data/master"
+                data-aue-type="component" itemfilter='cf'>
+                <div class="cards-card-body">
+                    <p><picture>
+                            <source type="image/webp"
+                                    srcset="/media_1ea22bf7384d8c5d70bb60955817cd2cddb4fcc4c.jpeg?width=750&amp;format=webply&amp;optimize=medium">
+                            <img loading="lazy" alt="" data-aue-prop="image" data-aue-type="image"
+                                 src="/media_1ea22bf7384d8c5d70bb60955817cd2cddb4fcc4c.jpeg?width=750&amp;format=jpeg&amp;optimize=medium">
+                        </picture>
+                    </p>
+                    <h5 id="electronics" data-aue-prop="title" data-aue-type="text">Electronics</h5>
+                </div>
+                <div class="cards-card-body">
+                    <p data-aue-prop="price" data-aue-type="text"><strong>Starting at £90pp</strong></p>
+                    <p data-aue-prop="description"
+                       data-aue-type="text">But that you may see whence all this error is born of those who accuse pleasure and praise pain</p>
+                    <p class="button-container" data-aue-prop="name" data-aue-type="text">
+                        <a href="/plp" title="BROWSE CATEGORY" class="button">
+                            <span ata-aue-prop="buttonLabel" data-aue-type="text">BROWSE CATEGORY</span>
+                        </a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
-<!-- End - Fetch Data from AEM Author and show on the page -->
