@@ -138,7 +138,7 @@ function addToCart() {
   console.log("click", `£${productPrice}`);
   // add it to session
   const currentSessionBasket = sessionStorage.getItem("basketList");
-  const list = [];
+  let list = [];
   if (currentSessionBasket) {
     list = JSON.parse(currentSessionBasket);
   }

@@ -3,7 +3,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
-  background-color:rgb(96,125,139);
+  background: #444830;
   color:white;
 }
 
