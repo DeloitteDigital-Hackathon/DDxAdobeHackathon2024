@@ -17,6 +17,7 @@ export function submitSuccess(e, form) {
   }
   form.setAttribute('data-submitting', 'false');
   form.querySelector('button[type="submit"]').disabled = false;
+  window.location.href= '/confirmationpage';
 }
 
 export function submitFailure(e, form) {
